@@ -590,7 +590,7 @@ export default function Home() {
                                                       <div className="headers ng-star-inserted">
                                                       <h2  aria-level="3" className="normal-case">Explore Citi<sup>®</sup> / AAdvantage<sup>®</sup> Credit Cards</h2>
                                                       </div>
-                                                      <p className="flex-grow-1 description">Whether you're a frequent flyer or first—time passenger, Citi has an airline rewards credit card to meet your travel needs.</p>
+                                                      <p className="flex-grow-1 description">Whether you&#39;re a frequent flyer or first—time passenger, Citi has an airline rewards credit card to meet your travel needs.</p>
 
                                                       <div >
                                                         <button cdscta="primary" customertype="priority" size="large" className="cds-cta btn-threeup cta-desktop AA_FAM3_CITICOM cds-cta-lg cds-cta-primary cds-cta-priority" aria-label="Learn More about Explore Citi® / AAdvantage® Credit Cards" style={{fontWeight: 800}}>
