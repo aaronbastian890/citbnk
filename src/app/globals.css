@@ -2612,6 +2612,11 @@ a#atmLink {
   margin-bottom: 12px;
 }
 
+@media screen and (max-width: 1120px) {
+  .banner.content-wrap .buttons{
+      display: none;
+  }
+}
 
 
 

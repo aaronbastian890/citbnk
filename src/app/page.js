@@ -212,7 +212,7 @@ export default function Home() {
                         <div pageid="ag_homePage">
                           <div className="homepage-reskin-container">
 
-                          <div id="clearUserIdAlert" className="container-fluid" style={{ display: "none" }}>
+                          {/* <div id="clearUserIdAlert" className="container-fluid" style={{ display: "none" }}>
                               <div
                                 role="alert"
                                 id="clearUser-alert-id"
@@ -221,7 +221,6 @@ export default function Home() {
                               >
                                 <div className="contentParentWrap">
                                   <div className="contentWrap">
-                                    {/* Icon Section */}
                                     <div
                                       role="img"
                                       id="cds-icon-id1"
@@ -232,16 +231,14 @@ export default function Home() {
                                         backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 22'%3E%3Ctitle%3E05-check-b1-hover%3C/title%3E%3Cpath d='M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm6.7,7.71-8.1,7.86A1.53,1.53,0,0,1,9.54,17a1.51,1.51,0,0,1-1-.42L5.3,13.48A1,1,0,0,1,6.7,12L9.54,14.8,17.3,7.28a1,1,0,1,1,1.4,1.43Z' transform='translate(-1 -1)' style='fill:%23002a54'/%3E%3C/svg%3E")`
                                       }}
                                     />
-                                    {/* Message */}
                                     <p className="content reskin-alert-signoff">You've successfully cleared the User ID!</p>
                                   </div>
-                                  {/* Close Button */}
                                   <div className="closeBtnWrap">
                                     <button type="button" aria-label="Close" className="cds-close"></button>
                                   </div>
                                 </div>
                               </div>
-                          </div>
+                          </div> */}
 
 
                           <section
