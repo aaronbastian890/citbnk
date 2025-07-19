@@ -35,6 +35,8 @@ body {
   margin: 0;
 }
 
+
+
 .cbolui-ddl body {
   font-size: 16px;
   line-height: 1.5;
@@ -2207,6 +2209,8 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 
 .mainListItem{
   list-style: none;
+  padding: 9px 20px 0px;
+  display: block;
 }
 
 .cbolui-cds ol, .cbolui-cds ul {
@@ -2399,13 +2403,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 }
 
 
-.main-links {
-  display: block;
-  padding: 9px 20px 0;
-  color: var(#04208F, #FFFFFF) !important;
-  line-height: 30px;
-  height: 100%;
-}
+
 
 .navigationParent {
   width: 100%;
@@ -2433,6 +2431,15 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
   --search-image-url: url('../../public/search-blue.svg');
   --menu-open-image-url: url('../../public/menu-open-blue.svg');
   --signon-close-image-url: url('../../public/menu-close-blue.svg');
+}
+
+
+#navigationLeft .main-links {
+  display: block;
+  padding: 9px 20px 0;
+  color: var(#04208F, #FFFFFF) !important;
+  line-height: 30px;
+  height: 100%;
 }
 
 
